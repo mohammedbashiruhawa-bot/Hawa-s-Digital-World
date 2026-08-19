@@ -1,0 +1,62 @@
+body {font-family: Arial, sans-serif; background-color: #f8efff; color: #333; text-align: center;}
+
+h1 {color: #6a1b9a; font-size: 36px; margin-top: 30px;}
+
+h2 {color: #8e24aa; font-size: 28px; margin-top: 30px;}
+
+Section {background-color: white; margin:25px auto; padding: 25px; max-width: 700px; border-radius: 20px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);}
+
+img {border-radius: 50%; border: 5px solid #8e24aa; margin-top: 15px;}
+
+section p {font-size: 18px; margin: 10px;}
+
+footer {background-color: #6a1b9a; color: white; padding: 20px; margin-top: 30px;}
+
+button {background-color: #8e24aa; color: white; border: none; padding: 12px 25px; border-radius: 25px; font-size: 16px; cursor: pointer; margin-top: 15px;}
+
+button:hover {background-color: #6a1b9a;}
+
+body.dark {background-color: #1f1b24; color: white;}
+
+body.dark section {background-color: #302a36;}
+
+body.dark h2 {color: #ce93d8;}
+
+body.dark footer {background-color: #120d16;}
+
+nav {margin: 20px 0;}
+
+nav a {display: inline-block; background-color: #8e24aa; color: white; text-decoration: none; padding: 10px 15px; margin: 5px; border-radius: 20px;}
+
+nav a:hover {background-color: #6a1b9a;}
+
+body > button {background-color: #6a1b9a; color: white; border:none; padding: 12px 22px; border-radius: 25px; font-size: 16px; cursor: pointer; margin: 10px;}
+
+body > button:hover {background-color: #8e24aa;}
+
+section:first-of-type {border-top: 6px solid #8e24aa;}
+
+section {transition: 0.3s ease, box-shadow 0.3s ease;}
+
+section:hover {transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);}
+
+@media (max-width: 600px) {h1 {font-size: 28px;} h2 {font-size: 23px;} nav a {padding: 8px 12px; font-size: 14px;} section {margin: 15px 10px; padding: 20px 15px;} img {max-width: 100%; height: auto;}}
+
+nav {display: flex; justify-content: center; flex-wrap: wrap; gap: 5px;}
+
+button {transition: transform 0.2s ease;}
+
+button:hover {transform: scale(1.05);}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #e1bee7;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 15px;
+    max-width: 400px;
+}
